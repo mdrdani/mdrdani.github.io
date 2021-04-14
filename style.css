@@ -14,6 +14,15 @@ body {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  body {
+    margin: 0;
+    padding: 90px 0px 10px 0px;
+    background: url("img/background.jpg") no-repeat;
+    background-size: auto;
+  }
+}
+
 .box {
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
